@@ -336,6 +336,54 @@ h3 {
   background: url("../images/home/footer.png") no-repeat;
   background-position: bottom left;
   background-size: 100%;
+  .testimonial{
+    margin-left: 40px;
+    .media{
+      .media-body{
+        margin-left:25px;
+        padding-left: 7%;
+        blockquote{
+          position:relative;
+          border-left:none;
+          &::before {
+            position:absolute;
+            content: "''";
+            color: #D89B4E;
+            font-weight: bold;
+            font-size:30px;
+            left:0;
+          }
+          &::after{
+            position:absolute;
+            content: "''";
+            color: #D89B4E;
+            font-weight: bold;
+            font-size:30px;
+            right:0;
+          }
+        }
+      }
+    }
+  }
+  .contact-form{
+    #main-contact-form{
+      .form-group{
+        .form-control{
+          border-color:#D89B4E;
+        }
+        .btn-submit{
+          width: 100%;
+          background: #D89B4E;
+          color: white;
+          text-transform: uppercase;
+          letter-spacing: 4.3px;
+        }
+      }
+    }
+  }
+  .copyright-text{
+    padding:40px 0;
+  }
 }
 @media screen and (max-width:700px){
 	.slide-text {

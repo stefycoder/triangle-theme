@@ -262,6 +262,38 @@ h3 {
   background: url("../images/home/footer.png") no-repeat;
   background-position: bottom left;
   background-size: 100%; }
+  #footer .testimonial {
+    margin-left: 40px; }
+    #footer .testimonial .media .media-body {
+      margin-left: 25px;
+      padding-left: 7%; }
+      #footer .testimonial .media .media-body blockquote {
+        position: relative;
+        border-left: none; }
+        #footer .testimonial .media .media-body blockquote::before {
+          position: absolute;
+          content: "''";
+          color: #D89B4E;
+          font-weight: bold;
+          font-size: 30px;
+          left: 0; }
+        #footer .testimonial .media .media-body blockquote::after {
+          position: absolute;
+          content: "''";
+          color: #D89B4E;
+          font-weight: bold;
+          font-size: 30px;
+          right: 0; }
+  #footer .contact-form #main-contact-form .form-group .form-control {
+    border-color: #D89B4E; }
+  #footer .contact-form #main-contact-form .form-group .btn-submit {
+    width: 100%;
+    background: #D89B4E;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4.3px; }
+  #footer .copyright-text {
+    padding: 40px 0; }
 
 @media screen and (max-width: 700px) {
   .slide-text {
